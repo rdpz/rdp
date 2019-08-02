@@ -20,6 +20,15 @@ Projects :
  	External: 	http://172.20.0.2:8761
  	Profile(s): 	[composite, dev, swagger, uaa]
  ----------------------------------------------------
+
+this is the single rest service which is available for now
+ ----------------------------------------------------------
+	Application 'appServiceOne' is running! Access URLs:
+	Local: 		http://localhost:8081/
+	External: 	http://127.0.1.1:8081/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+
 </pre>
 
 app-uaa : authentication service 
@@ -42,3 +51,4 @@ app-gateway:     the gateway
 	Profile(s): 	[dev, swagger]
 ---------------------------------------------
 </pre>
+
