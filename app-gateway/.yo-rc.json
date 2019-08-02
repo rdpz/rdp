@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dpr",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "gateway",
+    "baseName": "rdpGateway",
+    "packageName": "com.dpr",
+    "packageFolder": "com/dpr",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTczOTM5YWJiMjJiZDNjODQxNzg0NzQ1YmM5NTU3MWUzNzUzZTUyNjAwYzkzMDc1MDU0Nzk0MmZiNDVjNWQ0MDUyZjg5NGJmMmVhNGEzYzc3MzVhOTJjNWZhYjIxOWY3OTY4Zjk0MjJmZjQxNzgyMzgyYzI0YjE3MTc4MjM0NmU=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "yeti",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  rdpgateway-mongodb:
+    image: mongo:4.0.10
+    ports:
+      - '27017:27017'
+    command: mongos --configdb rdpgateway-mongodb-config
+  rdpgateway-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  rdpgateway-mongodb-config:
+    image: mongo:4.0.10
+    container_name: rdpgateway-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

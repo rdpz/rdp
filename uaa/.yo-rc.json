@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dpr",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.dpr",
+    "packageFolder": "com/dpr",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Njc1Yzk5NGE4NTk0MDUyNDU2OTE5NWRmYTVjZjg5MzBiNWY1OTExZTMxY2Y0YmE5OWJiNmY2ZGNjZjQwNDNkYjk5NGUzYWQ1MzA5OGYxOTM3MjBjODIyM2U0Yzk4OGMxODEyMmM5YTI2MDcxMmUwNzkyNWNiMmFlMDlhZGU4NjI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dpr",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "appServiceOne",
+    "packageName": "com.dpr",
+    "packageFolder": "com/dpr",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzUzZDAyMTNkN2IwNjcyMzM4NTYxMzgyMjRmNTIwYjE1ODMyYzEyMWU1MGVkOWI4NDNiZTk4ZWI3MTFjNDg2OTkxMjgyMDZiODAyOWFmNzM4MTQ0NWY5YmVlMzY3ZjlhOGFiOGY2YTQ5MzExNmNkNzk3M2Q0NDkzMDU1YjkyMDY=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
